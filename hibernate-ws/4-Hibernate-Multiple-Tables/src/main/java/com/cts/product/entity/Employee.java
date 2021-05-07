@@ -5,10 +5,12 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.SecondaryTable;
+import javax.persistence.SecondaryTables;
 
 @Entity(name = "employee")
-@SecondaryTable(name = "dept")
-@SecondaryTable(name = "project")
+//@SecondaryTable(name = "dept")
+//@SecondaryTable(name = "project")
+@SecondaryTables(value = {@SecondaryTable(name="dept"),@SecondaryTable(name="project")})
 public class Employee {
 
 	@Id

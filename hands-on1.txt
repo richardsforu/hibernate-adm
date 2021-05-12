@@ -1,3 +1,6 @@
+
+referirng pss.sql file from ( https://github.com/richardsforu/hibernate-adm/blob/master/db-dump/pss.sql )
+
 1. List all flights flying from DELHI to CHENNAI on 2021-05-26
 2. List all flights flying from DELHI to CHENNAI on 2021-05-26 whose price is below 9000
 3. List all scheduled flights of 'Indigo' airlines
